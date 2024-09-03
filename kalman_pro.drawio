@@ -162,7 +162,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0fx10O7DeUbAbGrjflrV-44" value="计算卡尔曼增益" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="0fx10O7DeUbAbGrjflrV-44" value="计算卡尔曼增益&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="46" y="268" width="102.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0fx10O7DeUbAbGrjflrV-45" value="$$P_{k/k}=(I-K_{k}H)P_{k/k-1}(I-K_{k}H)^{T}+K_{k}R_{k}K_{k}^{T}$$" style="text;whiteSpace=wrap;" vertex="1" parent="1">
@@ -292,6 +292,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="151" y="283" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="0fx10O7DeUbAbGrjflrV-77" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;$$K_k$$&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="44.5" y="531.33" width="27.5" height="36" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
