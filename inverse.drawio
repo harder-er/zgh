@@ -186,8 +186,11 @@
         <mxCell id="mOf4tWiYJ4hYIlibuN8Z-69" value="$$\begin{bmatrix}&#xa;\Phi_{1,1}&amp;\Phi_{1,2}\\&#xa;\Phi_{2,1}&amp;\Phi_{2,2}\\&#xa;\Phi_{3,1}&amp;\Phi_{3,2}\\&#xa;\Phi_{4,1}&amp;\Phi_{4,2}\\\end{bmatrix}$$" style="text;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="494.5" y="448.5" width="87" height="99" as="geometry" />
         </mxCell>
+        <mxCell id="mOf4tWiYJ4hYIlibuN8Z-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="mOf4tWiYJ4hYIlibuN8Z-70" target="mOf4tWiYJ4hYIlibuN8Z-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="mOf4tWiYJ4hYIlibuN8Z-70" value="$$\left [&#xa;\begin{matrix}&#xa;a&amp;0&amp;0&amp;x&amp;0&amp;0\\&#xa;0&amp;b&amp;0&amp;0&amp;y&amp;0\\&#xa;0&amp;0&amp;c&amp;0&amp;0&amp;z\\&#xa;x&amp;0&amp;0&amp;d&amp;0&amp;0\\&#xa;0&amp;y&amp;0&amp;0&amp;e&amp;0\\&#xa;0&amp;0&amp;z&amp;0&amp;0&amp;f&#xa;\end{matrix}&#xa; \right ]$$" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="471.5" y="593" width="136" height="141" as="geometry" />
+          <mxGeometry x="471" y="590.01" width="136.5" height="141" as="geometry" />
         </mxCell>
         <mxCell id="mOf4tWiYJ4hYIlibuN8Z-71" value="$$\left [ \begin{matrix}\frac{d}{ad-x^2}&amp;amp;0&amp;amp;0&amp;amp;-\frac{x}{ad-x^2}&amp;amp;0&amp;amp;0\\0&amp;amp;\frac{e}{be-y^2}&amp;amp;0&amp;amp;0&amp;amp;-\frac{y}{be-y^2}&amp;amp;0\\0&amp;amp;0&amp;amp;\frac{f}{cf-z^2}&amp;amp;0&amp;amp;0&amp;amp;-\frac{z}{cf-z^2}\\-\frac{x}{ad-x^2}&amp;amp;0&amp;amp;0&amp;amp;\frac{a}{ad-x^2}&amp;amp;0&amp;amp;0\\0&amp;amp;-\frac{y}{be-y^2}&amp;amp;0&amp;amp;0&amp;amp;\frac{b}{be-y^2}&amp;amp;0\\0&amp;amp;0&amp;amp;-\frac{z}{cf-z^2}&amp;amp;0&amp;amp;0&amp;amp;\frac{c}{cf-z^2}\end{matrix} \right ]$$" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="678" y="574.38" width="358" height="172.25" as="geometry" />
@@ -241,6 +244,15 @@
         </mxCell>
         <mxCell id="mOf4tWiYJ4hYIlibuN8Z-84" value="$$K_k$$" style="text;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="767.63" y="437" width="26" height="33.25" as="geometry" />
+        </mxCell>
+        <mxCell id="mOf4tWiYJ4hYIlibuN8Z-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mOf4tWiYJ4hYIlibuN8Z-91" target="mOf4tWiYJ4hYIlibuN8Z-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mOf4tWiYJ4hYIlibuN8Z-91" value="$$\left[\begin{array}{cccccc}&#xa;P_{p(3*3)}&amp;P_{pv(3*3)}&amp;P_{pa(3*3)}&amp;P_{p\delta(3*3)}\\&#xa;P_{vp(3*3)}&amp;P_{v(3*3)}&amp;P_{va(3*3)}&amp;P_{v\delta(3*3)}\\&#xa;P_{ap(3*3)}&amp;P_{av(3*3)}&amp;P_{a(3*3)}&amp;P_{a\delta(3*3)}\\&#xa;P_{\delta p(3*3)}&amp;P_{\delta v(3*3)}&amp;P_{\delta a(3*3)}&amp;P_{\delta(3*3)}\\&#xa;\end{array}\right]$$" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="78" y="541" width="233" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="mOf4tWiYJ4hYIlibuN8Z-95" value="$$P_{pv(3*3)}=&#xa;\left[\begin{array}{cccccc}&#xa;p_{x v_x} &amp; 0 &amp; 0\\&#xa;0 &amp; p_{y v_y} &amp;0\\&#xa;0 &amp; 0 &amp; p_{z v_z}&#xa;\end{array}\right]$$" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="106.5" y="649" width="183" height="79" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
