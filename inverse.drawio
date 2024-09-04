@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.10">
   <diagram name="第 1 页" id="y7iJmAaxipxlzdK7qwd3">
-    <mxGraphModel dx="988" dy="1696" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="1383" dy="1906" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -252,7 +252,7 @@
           <mxGeometry x="78" y="541" width="233" height="108" as="geometry" />
         </mxCell>
         <mxCell id="mOf4tWiYJ4hYIlibuN8Z-95" value="$$P_{pv(3*3)}=&#xa;\left[\begin{array}{cccccc}&#xa;p_{x v_x} &amp; 0 &amp; 0\\&#xa;0 &amp; p_{y v_y} &amp;0\\&#xa;0 &amp; 0 &amp; p_{z v_z}&#xa;\end{array}\right]$$" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="106.5" y="649" width="183" height="79" as="geometry" />
+          <mxGeometry x="106.5" y="649" width="178.5" height="78" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
